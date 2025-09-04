@@ -5,12 +5,12 @@ public class Automovel {
 	public String modelo;
 	public int ano;
 	
-	public void ligar() {
+	public void ligar() {// metodo com a mesma assinatura public void mesmsa assinatura ligar()
 	System.out.println("Automovel ligado!");
 	
 	}
 	
-	public void ligar(boolean usouAfogador) {
+	public void ligar(boolean usouAfogador) { 
 		if(usouAfogador) {
 			System.out.println("Automovel ligado");
 		} else {

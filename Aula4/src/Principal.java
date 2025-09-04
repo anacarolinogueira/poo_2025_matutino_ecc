@@ -9,7 +9,7 @@ public class Principal {
 		c1.ano = 2026;
 		c1.ligar(false);
 		
-		Moto m1 = new Moto(); // criar objeto em java sempre new o nome do parametro e paretese
+		Moto m1 = new Moto(); // criar objeto em java sempre new o nome da classe paretese
 		m1.marca = "Kawasaki";
 		m1.modelo = "Nao sei";
 		m1.ano = 2019;
