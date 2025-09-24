@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body id="corpo">
+    <form>
+        <input type="color" id="cor_falar">
+        <input type="button" onclick="Definiracor()" value="BTN"> <br><br>
+        <p> Email</p>
+        <input type="email" id="input_email" required> <!-- a pessoa eh obrigada a escreve44r alguma coisa-->
+        <input type="button" id="button_email" onclick="email_p()" value="Enviar"> <br><br>
+    </form>
+    <hr>
+    <p id="troca_paragrafo">Palavra</p>
+    <script>
+        function email_p(){
+            document.getElementById("troca_paragrafo").innerHTML=
+            "Seu email" + document.getElementById("input_email").value;
+            
+        }
+    </script>
+</body>
+
+</html>

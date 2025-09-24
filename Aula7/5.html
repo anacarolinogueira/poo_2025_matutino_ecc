@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body id="corpo">
+    <form>
+        <input type="color" id="cor_falar">
+        <input type="button" onclick="Definiracor()" value="BTN"> <br><br>
+        <p id="cor_p">oi tudo bem</p>
+    </form>
+    <hr>
+    <script>
+        function Definiracor(){
+            document.getElementById("cor_p").style.backgroundColor =
+               document.getElementById("cor_falar").value;
+            
+        }
+    </script>
+</body>
+
+</html>
